@@ -1,0 +1,42 @@
+/* ReportsPage.css */
+
+.reports-page {
+    padding: 50px 0; /* Ajouter un espace de 50px en haut et en bas de la page */
+  }
+  
+  .container {
+    max-width: 1200px; /* Limiter la largeur du contenu à 1200px */
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+  }
+  
+  .form-select {
+    width: 100%; /* Utiliser la largeur maximale pour les sélecteurs de formulaire */
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33.33%; /* Afficher chaque élément de rapport sur une seule colonne sur les écrans de taille moyenne */
+    max-width: 33.33%; /* Utiliser un tiers de la largeur de l'écran pour chaque élément de rapport */
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Styles pour l'adaptation mobile */
+  
+    .reports-page {
+      padding: 20px; /* Ajouter un espacement supplémentaire sur les côtés pour une meilleure lisibilité */
+    }
+  
+    .container {
+      width: 100%; /* Utiliser la largeur maximale de l'écran */
+      padding: 0 10px; /* Ajouter un espacement sur les côtés pour une meilleure lisibilité */
+    }
+  
+    .form-select {
+      width: 100%; /* Utiliser la largeur maximale de l'écran pour les sélecteurs de formulaire */
+    }
+  
+    .col-md-4 {
+      flex: 0 0 100%; /* Pour afficher chaque élément de rapport sur une seule colonne */
+      max-width: 100%; /* Utiliser la largeur maximale de l'écran pour chaque élément de rapport */
+    }
+  }
+  

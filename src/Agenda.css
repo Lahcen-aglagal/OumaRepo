@@ -1,0 +1,144 @@
+/* Styles pour le conteneur principal de l'agenda */
+.agenda-container {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styles pour la carte d'agenda */
+.agenda-card {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond avec transparence */
+    border-radius: 10px;
+}
+
+/* Styles pour les événements urgents */
+.urgent-event {
+    border-left: 5px solid #e01428;
+}
+
+/* Styles pour les éléments de liste de notifications */
+.notification-list-group-item {
+    padding: 15px;
+    background-color: #c2dad7;
+    border: 1px solid #5BA8A0;
+    border-radius: 5px;
+}
+
+/* Styles pour les éléments de liste de notifications, sauf le dernier */
+.notification-list-group-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* Styles pour les paragraphes à l'intérieur des éléments de liste de notifications */
+.notification-list-group-item p {
+    margin-bottom: 0.5rem;
+}
+
+/* Styles pour les petites balises à l'intérieur des éléments de liste de notifications */
+.notification-list-group-item small {
+    color: #6e7881;
+}
+
+/* Styles pour le composant de calendrier */
+.react-calendar {
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(197, 224, 198);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(10, 14, 12, 0.1);
+    padding: 10px;
+}
+
+/* Styles pour chaque case du calendrier */
+.react-calendar__tile {
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Styles pour la case de calendrier actuelle */
+.react-calendar__tile--now {
+    background: #FC6B05;
+    color: rgb(255, 255, 255);
+}
+
+/* Styles pour la case de calendrier active */
+.react-calendar__tile--active {
+    background: #FFB62B;
+    color: white;
+}
+
+/* Styles pour la survol de la case de calendrier actuelle ou active */
+.react-calendar__tile--now:hover,
+.react-calendar__tile--active:hover {
+    background: #022b15;
+    color: white;
+}
+
+/* Styles pour les événements à venir */
+.upcoming-events {
+    background-color:#FBCF38;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Styles pour chaque carte d'événement à venir */
+.upcoming-event-card {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(142, 141, 180, 0.1);
+}
+
+/* Styles pour les boutons Ajouter, Modifier et Supprimer */
+.btn-add-event, .btn-edit-event, .btn-delete-event {
+    margin-top: 15px;
+}
+
+/* Styles pour le bouton Ajouter */
+.btn-add-event {
+    background-color: #3B5284;
+    color: white;
+}
+
+/* Styles pour le bouton Modifier */
+.btn-edit-event {
+    background-color: #2A445E;
+    color: rgb(255, 252, 252);
+}
+
+/* Styles pour le bouton Supprimer */
+.btn-delete-event {
+    background-color: #346B6D;
+    color: white;
+}
+
+/* Media Queries pour les écrans de taille inférieure à 768px (tablettes et mobiles) */
+@media screen and (max-width: 768px) {
+    /* Styles spécifiques pour l'adaptation mobile */
+    .agenda-container {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .agenda-card {
+        margin-bottom: 10px;
+    }
+
+    .notification-list-group-item {
+        padding: 10px;
+    }
+
+    .upcoming-event-card .btn {
+        margin-right: 5px;
+    }
+
+    .btn-add-event, .btn-edit-event, .btn-delete-event {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}

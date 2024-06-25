@@ -1,0 +1,85 @@
+/* Styles pour la page de profil */
+.profile-page {
+  /* background-image: url('Gray🪨🌚🌫.jpeg'); Remplacez par l'URL de votre image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles pour le conteneur du profil */
+.profile-container {
+  background-color: rgba(248, 249, 250, 0.9); /* Fond transparent pour laisser apparaître l'image */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%; /* Largeur maximale pour une meilleure adaptation mobile */
+  width: 100%;
+}
+
+/* Styles spécifiques pour les cartes */
+.profile-container .card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(217, 208, 208, 0.1);
+}
+
+/* Styles pour l'en-tête de la carte */
+.profile-container .card-header {
+  background-color: #a3b899;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  font-size: 18px; /* Taille de police plus grande pour une meilleure lisibilité */
+  padding: 10px; /* Ajout de rembourrage pour une meilleure apparence */
+}
+
+/* Styles pour les champs de formulaire */
+.profile-container .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Ajout d'un espacement entre les champs */
+}
+
+/* Styles pour les boutons primaires */
+.profile-container .btn-primary {
+  background-color: #4d5d4c;
+  border-color: #a8b2bd;
+  margin-top: 10px; /* Ajout d'un espacement entre les boutons */
+}
+
+/* Styles pour les boutons primaires au survol */
+.profile-container .btn-primary:hover {
+  background-color: #7c9784;
+  border-color: #232527;
+}
+
+/* Styles pour les boutons de succès */
+.profile-container .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-top: 10px; /* Ajout d'un espacement entre les boutons */
+}
+
+/* Styles pour les boutons de succès au survol */
+.profile-container .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Media Queries pour les écrans de taille inférieure à 768px (tablettes et mobiles) */
+@media screen and (max-width: 768px) {
+  /* Styles spécifiques pour l'adaptation mobile */
+  .profile-page {
+      padding: 20px; /* Ajout de rembourrage pour une meilleure apparence */
+  }
+
+  .profile-container {
+      padding: 10px; /* Réduction du rembourrage pour une meilleure adaptation mobile */
+  }
+
+  .profile-container .card-header {
+      font-size: 16px; /* Taille de police réduite pour une meilleure adaptation mobile */
+  }
+}

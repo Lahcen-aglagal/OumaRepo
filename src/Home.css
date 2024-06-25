@@ -1,0 +1,86 @@
+/* Styles pour la page principale */
+.home-page {
+  /* Fond de la page avec une image vert.jpg centrée */
+  background: url('vert.jpg') no-repeat center center fixed;
+  background-size: cover; /* Taille de l'image de fond pour couvrir la page */
+  padding: 70px; /* Espacement intérieur de la page */
+  min-height: 100vh; /* Hauteur minimale pour occuper toute la hauteur de la vue */
+}
+
+/* Styles pour le cadre de réclamations traitées */
+.dashboard-component.treated-reports {
+  margin-bottom: 20px; /* Marge en bas du composant */
+}
+
+.dashboard-component.treated-reports .card {
+  border-radius: 10px; /* Coins arrondis du cadre */
+  box-shadow: 0 0 10px rgba(179, 193, 0, 0.5); /* Ombre légère jaune */
+}
+
+.dashboard-component.treated-reports .card-header {
+  background-color: #B3C100; /* Jaune pour l'en-tête */
+  color: #23282D; /* Texte noir */
+}
+
+/* Styles pour le cadre des réclamations totales */
+.dashboard-component.total-reports {
+  margin-bottom: 20px; /* Marge en bas du composant */
+}
+
+.dashboard-component.total-reports .card {
+  border-radius: 10px; /* Coins arrondis du cadre */
+  box-shadow: 0 0 10px rgba(206, 210, 204, 0.5); /* Ombre légère grise */
+}
+
+.dashboard-component.total-reports .card-header {
+  background-color: #CED2CC; /* Gris pour l'en-tête */
+  color: #23282D; /* Texte noir */
+}
+
+/* Styles pour le cadre du pourcentage des réclamations traitées */
+.dashboard-component.treated-percentage {
+  margin-bottom: 20px; /* Marge en bas du composant */
+  width: 100%; /* Ajustement de la largeur */
+}
+
+.dashboard-component.treated-percentage .card {
+  border-radius: 10px; /* Coins arrondis du cadre */
+  box-shadow: 0 0 10px rgba(76, 181, 245, 0.5); /* Ombre légère bleue */
+}
+
+.dashboard-component.treated-percentage .card-header {
+  background-color: #081f14; /* Bleu pour l'en-tête */
+  color: #23282D; /* Texte noir */
+}
+
+/* Styles pour les boutons */
+.btn-info {
+  background-color: #1F3F49; /* Bleu foncé pour les boutons "Détails" */
+  color: #ffffff; /* Couleur du texte */
+}
+
+.btn-success {
+  background-color: #6AB187; /* Vert pour les boutons "Traiter" */
+  color: #ffffff; /* Couleur du texte */
+}
+
+/* Styles pour les composants de statistiques */
+.card {
+  margin-bottom: 20px; /* Marge en bas de chaque carte */
+}
+
+.card .card-body {
+  background-color: #f5f8fb; /* Couleur de fond du corps de la carte */
+}
+
+.card .card-title {
+  color: #021c10; /* Couleur du texte du titre de la carte */
+}
+
+.card .progress-bar {
+  background-color: #5c7e9f; /* Couleur de la barre de progression */
+}
+.dashboard-component.treated-percentage {
+  margin-bottom: 20px; /* Marge en bas du composant */
+  height: 120px; /* Hauteur spécifique pour le cadre */
+}

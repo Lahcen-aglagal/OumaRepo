@@ -1,0 +1,49 @@
+/* Assurez-vous que la barre de navigation est fixée en haut */
+.custom-navbar {
+  background-color: #6f9378; /* Couleur de fond de la barre de navigation */
+  z-index: 1000; /* Assurez-vous qu'il est au-dessus des autres éléments */
+}
+
+/* Réduire la hauteur de la barre de navigation sur les appareils mobiles */
+@media (max-width: 767px) {
+  .custom-navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* Ajuster les éléments du menu déroulant sur les appareils mobiles */
+.dropdown-menu {
+  background-color: #c6d6af; /* Correspond à la couleur de la barre de navigation */
+  color: white;
+  margin-top: 10px; /* Espacement supplémentaire en haut pour les appareils mobiles */
+}
+
+/* Style pour les éléments de menu déroulant sur les appareils mobiles */
+.dropdown-item {
+  padding: 0.5rem 1rem; /* Espacement plus large pour les appareils mobiles */
+}
+
+/* Icône de déconnexion */
+.logout-icon {
+  margin-left: 10px; /* Espacement à gauche de l'icône de déconnexion */
+}
+
+/* Style pour la liste déroulante de l'utilisateur admin */
+.dropdown-menu {
+  background-color: #c6d6af; /* Correspond à la couleur de la barre de navigation */
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #9ec5ab; /* Couleur de survol pour les éléments du menu déroulant */
+  color: white;
+}
+
+.nav-link {
+  color: white !important; /* S'assure que le lien du nav est blanc */
+}
+
+.navbar-brand {
+  cursor: pointer; /* S'assure que le curseur change en pointeur pour le toggle */
+}

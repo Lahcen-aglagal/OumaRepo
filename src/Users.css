@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Body background */
+body {
+    background-image: url('user.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Container styling */
+.container {
+    background-image: url('user2.jpg');/* White background with some transparency */
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(106, 55, 189, 0.1);
+}
+
+/* Header styling */
+h2 {
+    color: #25255f; /* Blue color for headers */
+}
+
+/* Table styling */
+.table thead th {
+    color: #0d0d7e; /* Blue color for table headers */
+    background-color: #92B5C1;
+}
+
+.table tbody td {
+    color: #000000; /* Dark grey color for table cells */
+    background-color: #D8DEE3;
+}
+/**/
+
+
+
+/* Form input styling */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #0e29be;
+}
+
+.form-control:focus {
+    border-color: #5B42F3;
+    box-shadow: 0 0 5px rgba(91, 66, 243, 0.5);
+}
+/*table*/

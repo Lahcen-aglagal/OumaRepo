@@ -1,0 +1,56 @@
+.reclamation-page {
+    background-image: url('vert.jpg'); /* Remplacez par l'URL de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.reclamation-container {
+    background-color: rgba(248, 249, 250, 0.695); /* Fond transparent pour laisser apparaître l'image */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.reclamation-container .card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reclamation-container .card-header {
+    background-color: #9aa797;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+}
+
+.reclamation-container .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.reclamation-container .btn-primary {
+    background-color: #19360d;
+    border-color: #97a0aa;
+}
+
+.reclamation-container .btn-primary:hover {
+    background-color: #204a6fb4;
+    border-color: #020509;
+}
+
+.reclamation-container .btn-success {
+    background-color: #a2b0a6;
+    border-color: #7d817e;
+}
+
+.reclamation-container .btn-success:hover {
+    background-color: #424a44;
+    border-color: #555d57;
+}

@@ -1,0 +1,56 @@
+/* Settings.css */
+
+.settings-page {
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+.settings-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.settings-container .form-label {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.settings-container .form-control {
+  border-radius: 5px;
+}
+
+.settings-container .form-check-label {
+  margin-left: 5px;
+}
+
+.settings-container .btn-primary {
+  background-color: #4e2909;
+  border-color: #c3d1e0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.settings-container .btn-primary:hover {
+  background-color: #bd520a;
+  border-color: #b46a09;
+}
+
+.settings-container h2 {
+  color: #2d0404;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.settings-container h4 {
+  color: #343a40;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 10px;
+}
+
+.form-check-input {
+  margin-right: 10px;
+}
